@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/checkinhhh"
+    >
+<LinearLayout
+    android:layout_marginTop="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button android:id="@+id/fastfood_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fast Food"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/food_btns"
+
+        />
+
+    <Button
+        android:id="@+id/Chinese_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chinese"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/food_btns"
+
+        />
+
+    <Button
+        android:id="@+id/barbq_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bar.B.Que"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/food_btns"
+
+        />
+
+
+    <Button
+        android:id="@+id/dessert_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dessert"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/food_btns"
+        />
+
+
+
+    />
+
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>
