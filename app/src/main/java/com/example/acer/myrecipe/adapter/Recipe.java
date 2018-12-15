@@ -13,7 +13,7 @@ import com.example.acer.myrecipe.MainActivity;
 import com.example.acer.myrecipe.R;
 
 public class Recipe extends AppCompatActivity {
-TextView text1, text2;
+TextView text2;
     ImageView image;
     String foodrecipe;
 
@@ -22,7 +22,6 @@ TextView text1, text2;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recipe);
-        text1 = (TextView) findViewById(R.id.recipe);
 
         text2 = (TextView) findViewById(R.id.recipiess);
         image = (ImageView) findViewById(R.id.imgView);
@@ -34,15 +33,15 @@ TextView text1, text2;
             image.setImageResource(R.drawable.crispybroast);
 
             text2.setText("INGREDIENTS:\n\n" +
-                    "Chicken 2 (with skin)\n\n" +
-                    "White Pepper 1 tbsp\n\n" +
-                    "Salt 4 tbsp and 1 tbsp forcoating\n\n" +
-                    "Ginger garlic paste 1 tbsp\n\n" +
-                    "Corn flour 1/2 cup\n\n" +
-                    "Green chili paste 3 tbsp\n\n" +
-                    "Plain flour 2 cups\n\n" +
-                    "Baking Powder 2 tbsp\n\n" +
-                    "Water as required\n\n" +
+                    "Chicken 2 (with skin)\n" +
+                    "White Pepper 1 tbsp\n" +
+                    "Salt 4 tbsp and 1 tbsp forcoating\n" +
+                    "Ginger garlic paste 1 tbsp\n" +
+                    "Corn flour 1/2 cup\n" +
+                    "Green chili paste 3 tbsp\n" +
+                    "Plain flour 2 cups\n" +
+                    "Baking Powder 2 tbsp\n" +
+                    "Water as required\n" +
                     "COOKING DIRECTIONS:\n\n" +
                     "Fill a bowl with water now add green chili paste, salt, baking powder and ginger garlic paste in it.\n" +
                     "Dip the chicken pieces in bowl and leave it for about 4-5hours to let the chicken marinated perfectly.\n" +
@@ -60,15 +59,15 @@ if (foodrecipe.equals("Chicken Nuggets")){
         image.setImageResource(R.drawable.chickennuggets);
 
     text2.setText("INGREDIENTS:\n\n" +
-            "Chicken boneless (chopped) 1/2 kg\n\n" +
-            "Oil (for deep frying) as required\n\n" +
-            "Black pepper 1/2 tsp\n\n" +
-            "Garlic paste 1 tsp\n\n" +
-            "Salt 1 tsp\n\n" +
-            "Onion (small and chopped) 1\n\n" +
-            "Plain flour 1/2 cup\n\n" +
-            "Bread crumbs 1 cup\n\n" +
-            "Egg 1\n\n" +
+            "Chicken boneless (chopped) 1/2 kg\n" +
+            "Oil (for deep frying) as required\n" +
+            "Black pepper 1/2 tsp\n" +
+            "Garlic paste 1 tsp\n" +
+            "Salt 1 tsp\n" +
+            "Onion (small and chopped) 1\n" +
+            "Plain flour 1/2 cup\n" +
+            "Bread crumbs 1 cup\n" +
+            "Egg 1\n" +
             "COOKING DIRECTIONS:\n\n" +
             "Add chicken pieces in a pot.\n" +
             "Add garlic paste, black pepper and salt in it.\n" +
@@ -91,20 +90,20 @@ if (foodrecipe.equals("Chicken Burger")){
 image.setImageResource(R.drawable.chikenburger);
 
     text2.setText("INGREDIENTS:\n\n" +
-            "Chicken 500 gm\n\n" +
-            "Egg 1\n\n" +
-            "Bread 2 slices\n\n" +
-            "Bread crumbs 2 tbsp\n\n" +
-            "Mustard paste 1 tsp\n\n" +
-            "Black pepper powder 1 tsp\n\n" +
-            "White pepper powder ½ tsp\n\n" +
-            "Margarine ½ cup\n\n" +
-            "Bun 4\n\n" +
-            "Onion 2 tbsp\n\n" +
-            "Carrot 1\n\n" +
-            "Cabbage 2 tbsp\n\n" +
-            "Ketchup 1 cup\n\n" +
-            "Oil for fry\n\n" +
+            "Chicken 500 gm\n" +
+            "Egg 1\n" +
+            "Bread 2 slices\n" +
+            "Bread crumbs 2 tbsp\n" +
+            "Mustard paste 1 tsp\n" +
+            "Black pepper powder 1 tsp\n" +
+            "White pepper powder ½ tsp\n" +
+            "Margarine ½ cup\n" +
+            "Bun 4\n" +
+            "Onion 2 tbsp\n" +
+            "Carrot 1\n" +
+            "Cabbage 2 tbsp\n" +
+            "Ketchup 1 cup\n" +
+            "Oil for fry\n" +
             "COOKING DIRECTIONS:\n\n" +
             "For Chicken Burger:\n" +
             "In a mixing bowl add minced chicken, bread slices, salt, black pepper, white pepper, egg and chopped onions.\n" +
@@ -120,20 +119,20 @@ if (foodrecipe.equals("Zinger Burger")) {
     image.setImageResource(R.drawable.zingerburger);
 
     text2.setText("INGREDIENTS:\n\n" +
-            "Chicken breast 2\n\n" +
-            "Salt to taste\n\n" +
-            "Black pepper 1/2 tsp\n\n" +
-            "Red chili 1 tbsp (crushed)\n\n" +
-            "Papaya paste 2 tbsp\n\n" +
-            "Egg 2\n\n" +
-            "All purpose flour 1/2 cup\n\n" +
-            "All purpose flour 3 tbsp\n\n" +
-            "Corn flour 1/2 cup\n\n" +
-            "Rice flour 1/2 cup\n\n" +
-            "Oil for frying\n\n" +
-            "Burger bun 4\n\n" +
-            "Mayonnaise 1/2 cup\n\n" +
-            "Iceberg 1 flower\n\n" +
+            "Chicken breast 2\n" +
+            "Salt to taste\n" +
+            "Black pepper 1/2 tsp\n" +
+            "Red chili 1 tbsp (crushed)\n" +
+            "Papaya paste 2 tbsp\n" +
+            "Egg 2\n" +
+            "All purpose flour 1/2 cup\n" +
+            "All purpose flour 3 tbsp\n" +
+            "Corn flour 1/2 cup\n" +
+            "Rice flour 1/2 cup\n" +
+            "Oil for frying\n" +
+            "Burger bun 4\n" +
+            "Mayonnaise 1/2 cup\n" +
+            "Iceberg 1 flower\n" +
             "COOKING DIRECTIONS:\n\n" +
             "Cut chicken breast into two pieces.\n" +
             "Then marinate it with salt, black pepper, red chili and papaya paste.\n" +
@@ -152,19 +151,19 @@ if (foodrecipe.equals("Chicken Cheese Sandwich")){
     image.setImageResource(R.drawable.chickensandwich);
 
     text2.setText("INGREDIENTS:\n\n" +
-            "Chicken ½ cup (boiled)\n\n" +
-            "Mayonnaise 4 tbsp\n\n" +
-            "Tomato 1 small (chopped)\n\n" +
-            "Fresh coriander leaves 1 tbsp\n\n" +
-            "Carrot 1 small (chopped)\n\n" +
-            "Lemon juice 1 tsp\n\n" +
-            "Black pepper power ½ tsp\n\n" +
-            "Red chili ½ tsp (crushed)\n\n" +
-            "Salt to taste\n\n" +
-            "Onion 1 medium (sliced)\n\n" +
-            "Bread 4 slices\n\n" +
-            "Cheese slices 2\n\n" +
-            "Butter 2 tbsp\n\n" +
+            "Chicken ½ cup (boiled)\n" +
+            "Mayonnaise 4 tbsp\n" +
+            "Tomato 1 small (chopped)\n" +
+            "Fresh coriander leaves 1 tbsp\n" +
+            "Carrot 1 small (chopped)\n" +
+            "Lemon juice 1 tsp\n" +
+            "Black pepper power ½ tsp\n" +
+            "Red chili ½ tsp (crushed)\n" +
+            "Salt to taste\n" +
+            "Onion 1 medium (sliced)\n" +
+            "Bread 4 slices\n" +
+            "Cheese slices 2\n" +
+            "Butter 2 tbsp\n" +
             "COOKING DIRECTIONS:\n\n" +
             "In a bowl mix together chicken, mayonnaise, tomato, coriander, carrot, lemon juice, black pepper powder, red chili and salt.\n" +
             "Heat 1 tbsp butter in frying pan and stir fry sliced onion until golden brown.\n" +
@@ -183,18 +182,18 @@ if (foodrecipe.equals("Chicken Onion Sauce Sandwich")){
 
 
     text2.setText("INGREDIENTS:\n\n" +
-            "For Sauce\n\n" +
-            "Chicken stock 1 cup\n\n" +
-            "Onion 1 (finely chopped)\n\n" +
-            "Minced garlic 1 tsp\n\n" +
-            "Red chili flakes 1 tsp\n\n" +
-            "Brown sugar ⅓ cup\n\n" +
-            "Balsamic vinegar 1 tbsp\n\n" +
-            "White vinegar 1 tsp\n\n" +
-            "Salt to taste\n\n" +
-            "Chicken strips cooked 1 cup\n\n" +
-            "Subway bread buns\n\n" +
-            "Salad\n\n" +
+            "For Sauce\n" +
+            "Chicken stock 1 cup\n" +
+            "Onion 1 (finely chopped)\n" +
+            "Minced garlic 1 tsp\n" +
+            "Red chili flakes 1 tsp\n" +
+            "Brown sugar ⅓ cup\n" +
+            "Balsamic vinegar 1 tbsp\n" +
+            "White vinegar 1 tsp\n" +
+            "Salt to taste\n" +
+            "Chicken strips cooked 1 cup\n" +
+            "Subway bread buns\n" +
+            "Salad\n" +
             "COOKING DIRECTIONS:\n\n" +
             "In a pan, add stock, onion, garlic, red chilli flakes, brown sugar, balsamic and white vinegar. Simmer over medium heat until onions are soft and flavors are blended.\n" +
             "Using a blender, puree the sauce until smooth.\n" +
@@ -204,38 +203,38 @@ if (foodrecipe.equals("Chicken Tikka Pizza")){
 image.setImageResource(R.drawable.tikkapizza);
 
     text2.setText("INGREDIENTS:\n\n" +
-            "For Pizza Dough:\n\n" +
-            "Flour\t200g (2cups)\n\n" +
-            "Salt\t1/2tsp\n\n" +
-            "Instant yeast\t1-1/2 tsp\n\n" +
-            "Egg\t1\n\n" +
-            "Dry milk powder\t1-1/2 tbsp\n\n" +
-            "Caster sugar\t1 tsp\n\n" +
-            "Oil\t3 tbsp\n\n" +
-            "Luke warm water\tas required for binding\n\n" +
-            "For Pizza Sauce:\n\n" +
-            "Oil\t2tbsp\n\n" +
-            "Garlic paste\t1/2 tsp\n\n" +
-            "Tomato paste\t1/2 cup\n\n" +
-            "Red chilli powder\t1/2 tsp\n\n" +
-            "Salt\t1/2 tsp\n\n" +
-            "Oregano leaves\t1/2 tsp\n\n" +
-            "Ketchup\t2tbsp\n\n" +
-            "Chicken Tikka:\n\n" +
-            "Boneless chicken\t2 breast piece\n\n" +
-            "Tikka Masala\t3-4 tbsp\n\n" +
-            "Lemon juice\t2 tbsp\n\n" +
-            "Ginger garlic paste\t1/2 tsp\n\n" +
-            "Topping:\n\n" +
-            "Onion\t1(cube cut)\n\n" +
-            "Capsicum\t1(cube cut)\n\n" +
-            "Tomato\t1(without seeds) cube cut\n\n" +
-            "Sweet corn\t2-3 tbsp\n\n" +
-            "Mushrooms\t3-4 tbsp\n\n" +
-            "Black olives\t3-4 tbsp\n\n" +
-            "Oregano leaves\t1tsp\n\n" +
-            "Cheddar cheese\t1cup\n\n" +
-            "Mozzarella cheese 1cup\n\n" +
+            "For Pizza Dough:\n" +
+            "Flour\t200g (2cups)\n" +
+            "Salt\t1/2tsp\n" +
+            "Instant yeast\t1-1/2 tsp\n" +
+            "Egg\t1\n" +
+            "Dry milk powder\t1-1/2 tbsp\n" +
+            "Caster sugar\t1 tsp\n" +
+            "Oil\t3 tbsp\n" +
+            "Luke warm water\tas required for binding\n" +
+            "For Pizza Sauce:\n" +
+            "Oil\t2tbsp\n" +
+            "Garlic paste\t1/2 tsp\n" +
+            "Tomato paste\t1/2 cup\n" +
+            "Red chilli powder\t1/2 tsp\n" +
+            "Salt\t1/2 tsp\n" +
+            "Oregano leaves\t1/2 tsp\n" +
+            "Ketchup\t2tbsp\n" +
+            "Chicken Tikka:\n" +
+            "Boneless chicken\t2 breast piece\n" +
+            "Tikka Masala\t3-4 tbsp\n" +
+            "Lemon juice\t2 tbsp\n" +
+            "Ginger garlic paste\t1/2 tsp\n" +
+            "Topping:\n" +
+            "Onion\t1(cube cut)\n" +
+            "Capsicum\t1(cube cut)\n" +
+            "Tomato\t1(without seeds) cube cut\n" +
+            "Sweet corn\t2-3 tbsp\n" +
+            "Mushrooms\t3-4 tbsp\n" +
+            "Black olives\t3-4 tbsp\n" +
+            "Oregano leaves\t1tsp\n" +
+            "Cheddar cheese\t1cup\n" +
+            "Mozzarella cheese 1cup\n" +
             "COOKING DIRECTIONS:\n\n" +
             "For dough: Take a bowl; add flour, salt, instant yeast, egg, dry milk powder, caster sugar, oil and very little water for binding. \n" +
             "Mix them well and keep adding little water as required to keep it soft. \n" +
@@ -264,47 +263,47 @@ if(foodrecipe.equals("Chicken Tandoori Pizza")){
     image.setImageResource(R.drawable.tandooripizza);
 
     text2.setText("INGREDIENTS:\n\n" +
-            "For Pizza Dough:(enough for 2 pizzas)\n\n" +
-            "All purpose flour 1/2 kg\n\n" +
-            "Sugar 1 tbsp\n\n" +
-            "Oil 3 tbsp\n\n" +
-            "Egg 1\n\n" +
-            "Instant yeast 1,1/2 tbsp\n\n" +
-            "Salt 1/2 tsp\n\n" +
-            "Lukewarm water or milk as needed\n\n" +
-            "For Tandoori Chicken Topping:\n\n" +
-            "Chicken boneless 1 kg\n\n" +
-            "Salt 1,1/2 or to taste\n\n" +
-            "Lemon 2 tbsp\n\n" +
-            "Vinegar 3 tbsp\n\n" +
-            "Yogurt 1 cup\n\n" +
+            "For Pizza Dough:(enough for 2 pizzas)\n" +
+            "All purpose flour 1/2 kg\n" +
+            "Sugar 1 tbsp\n" +
+            "Oil 3 tbsp\n" +
+            "Egg 1\n" +
+            "Instant yeast 1,1/2 tbsp\n" +
+            "Salt 1/2 tsp\n" +
+            "Lukewarm water or milk as needed\n" +
+            "For Tandoori Chicken Topping:\n" +
+            "Chicken boneless 1 kg\n" +
+            "Salt 1,1/2 or to taste\n" +
+            "Lemon 2 tbsp\n" +
+            "Vinegar 3 tbsp\n" +
+            "Yogurt 1 cup\n" +
             "Ajinomoto 1 tsp\n\n" +
-            "Ginger garlic paste 4 tbsp\n\n" +
-            "Oil 2-3 tbsp\n\n" +
-            "Red chilli crushed 2 tbsp\n\n" +
-            "Black pepper 2 tbsp\n\n" +
-            "White pepper 1 tsp\n\n" +
-            "Chilli sauce 1 tbsp\n\n" +
-            "Soya sauce 2 tbsp\n\n" +
-            "Yellow food colour 1/2 tsp\n\n" +
-            "Coal 1 inch piece\n\n" +
-            "For Sauce:\n\n" +
-            "Oil 2 tbsp\n\n" +
-            "Ketchup 1/2 cup\n\n" +
-            "Garlic paste 1/2 tsp\n\n" +
-            "Salt 1/2 tsp\n\n" +
-            "Red chilli powder 1 tsp\n\n" +
-            "Ajinomoto 1/2 tsp\n\n" +
-            "White pepper 1/2 tsp\n\n" +
-            "Thyme powder 1/4 tsp\n\n" +
-            "Oregano powder 1/4 tsp\n\n" +
-            "For Topping:\n\n" +
-            "Tomato 2 (cut into square)\n\n" +
-            "Lemon 1(slices)\n\n" +
-            "Onion 1 (chopped)\n\n" +
-            "Capsicum 2(cut into square)\n\n" +
-            "Mozzarella cheese 1 pack (shredded)\n\n" +
-            "Cheddar cheese 1 pack (shredded)\n\n" +
+            "Ginger garlic paste 4 tbsp\n" +
+            "Oil 2-3 tbsp\n" +
+            "Red chilli crushed 2 tbsp\n" +
+            "Black pepper 2 tbsp\n" +
+            "White pepper 1 tsp\n" +
+            "Chilli sauce 1 tbsp\n" +
+            "Soya sauce 2 tbsp\n" +
+            "Yellow food colour 1/2 tsp\n" +
+            "Coal 1 inch piece\n" +
+            "For Sauce:\n" +
+            "Oil 2 tbsp\n" +
+            "Ketchup 1/2 cup\n" +
+            "Garlic paste 1/2 tsp\n" +
+            "Salt 1/2 tsp\n" +
+            "Red chilli powder 1 tsp\n" +
+            "Ajinomoto 1/2 tsp\n" +
+            "White pepper 1/2 tsp\n" +
+            "Thyme powder 1/4 tsp\n" +
+            "Oregano powder 1/4 tsp\n" +
+            "For Topping:\n" +
+            "Tomato 2 (cut into square)\n" +
+            "Lemon 1(slices)\n" +
+            "Onion 1 (chopped)\n" +
+            "Capsicum 2(cut into square)\n" +
+            "Mozzarella cheese 1 pack (shredded)\n" +
+            "Cheddar cheese 1 pack (shredded)\n" +
             "COOKING DIRECTIONS:\n\n" +
             "For Pizza Doug: Mix yeast in a little slightly warm milk and leave.\n" +
             "Let it rise and then dissolve sugar and salt in it.\n" +
@@ -326,21 +325,21 @@ if(foodrecipe.equals("Egg Fried Rice")){
 
 image.setImageResource(R.drawable.eggfriedrice);
     text2.setText("INGREDIENTS:\n\n" +
-            "Basmati Rice 1 kg (washed and soaked for 20 minutes)\n\n" +
-            "Eggs 4 (whisk with a pinch of yellow color)\n\n" +
-            "Spring onions 1 cup (finely sliced tops or green leaves)\n\n" +
-            "Carrots 3 (finely sliced)\n\n" +
-            "Bell pepper 2 (finely sliced)\n\n" +
-            "Garlic water/essence 2 tbsp\n\n" +
-            "Soya sauce 2 tbsp\n\n" +
-            "White vinegar 1 tbsp\n\n" +
-            "Black pepper ½ tsp (ground)\n\n" +
-            "Sugar 1 tsp\n\n" +
-            "Ajinomoto ½ tsp (Chinese Salt)\n\n" +
-            "Salt To taste\n\n" +
-            "Cinnamon 1 piece roasted and ground\n\n" +
-            "Oil 1 cup\n\n" +
-            "Sesame oil a few drops\n\n" +
+            "Basmati Rice 1 kg (washed and soaked for 20 minutes)\n" +
+            "Eggs 4 (whisk with a pinch of yellow color)\n" +
+            "Spring onions 1 cup (finely sliced tops or green leaves)\n" +
+            "Carrots 3 (finely sliced)\n" +
+            "Bell pepper 2 (finely sliced)\n" +
+            "Garlic water/essence 2 tbsp\n" +
+            "Soya sauce 2 tbsp\n" +
+            "White vinegar 1 tbsp\n" +
+            "Black pepper ½ tsp (ground)\n" +
+            "Sugar 1 tsp\n" +
+            "Ajinomoto ½ tsp (Chinese Salt)\n" +
+            "Salt To taste\n" +
+            "Cinnamon 1 piece roasted and ground\n" +
+            "Oil 1 cup\n" +
+            "Sesame oil a few drops\n" +
             "COOKING DIRECTIONS:\n\n" +
             "Boil water in cooking pan then add rice, 1 tbsp salt and vinegar. Boil rice until 80% done then drain the water and simmer rice on slow heat on five minutes.\n" +
             "Remove rice from heat and spread in wide dish.\n" +
@@ -376,7 +375,7 @@ image.setImageResource(R.drawable.chickenmanchurian);
             "Tomato ketchup 2 tbsp\n" +
             "Onion 1 finally chopped\n" +
             "Capsicum 1 finally chopped\n" +
-            "Corn flour 3 tbsp\n\n" +
+            "Corn flour 3 tbsp\n" +
             "COOKING DIRECTIONS:\n\n" +
             "Cut chicken breast in to cubes, marinate it in soya sauce, vinegar, salt and black pepper. Leave it for 30 minutes.\n" +
             "Now heat oil in a wok and add garlic to saute, add marinated chicken and cook it until water dries.\n" +

@@ -4,60 +4,70 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/checkinhhh"
+    android:background="@drawable/menu_1_img"
+
     >
 <LinearLayout
-    android:layout_marginTop="25dp"
+    android:layout_marginTop="110dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
 
     <Button android:id="@+id/fastfood_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="420px"
+        android:layout_height="100px"
         android:text="Fast Food"
-        android:textStyle="italic"
-        android:textSize="30dp"
+        android:textStyle="normal"
+        android:layout_gravity="center"
+        android:textSize="26dp"
         android:layout_margin="20dp"
-        android:background="@drawable/food_btns"
+        android:textColor="@color/white"
+        android:background="@drawable/cat_btn"
 
         />
 
     <Button
         android:id="@+id/Chinese_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="420px"
+        android:layout_height="100px"
         android:text="Chinese"
-        android:textStyle="italic"
-        android:textSize="30dp"
+        android:textStyle="normal"
+        android:layout_gravity="center"
+        android:textSize="26dp"
         android:layout_margin="20dp"
-        android:background="@drawable/food_btns"
+
+        android:textColor="@color/white"
+        android:background="@drawable/cat_btn"
 
         />
 
     <Button
         android:id="@+id/barbq_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="420px"
+        android:layout_height="100px"
         android:text="Bar.B.Que"
-        android:textStyle="italic"
-        android:textSize="30dp"
+        android:textStyle="normal"
+        android:layout_gravity="center"
+        android:textSize="26dp"
         android:layout_margin="20dp"
-        android:background="@drawable/food_btns"
+        android:textColor="@color/white"
+        android:background="@drawable/cat_btn"
 
         />
 
 
     <Button
         android:id="@+id/dessert_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="420px"
+        android:layout_height="100px"
         android:text="Dessert"
-        android:textStyle="italic"
-        android:textSize="30dp"
+        android:textStyle="normal"
+        android:layout_gravity="center"
+        android:textSize="26dp"
         android:layout_margin="20dp"
-        android:background="@drawable/food_btns"
+        android:textColor="@color/white"
+        android:background="@drawable/cat_btn"
         />
 
 

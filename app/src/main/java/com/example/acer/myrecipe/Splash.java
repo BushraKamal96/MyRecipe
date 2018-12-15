@@ -5,17 +5,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Splash extends AppCompatActivity {
     TextView text;
     Button tapbutton;
+    ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        text = (TextView) findViewById(R.id.textview);
+        imageView = (ImageView) findViewById(R.id.Imageview);
         tapbutton =(Button) findViewById(R.id.tapButton);
         tapbutton.setOnClickListener(new View.OnClickListener() {
             @Override

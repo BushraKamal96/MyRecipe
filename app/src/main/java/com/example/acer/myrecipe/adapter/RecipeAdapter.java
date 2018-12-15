@@ -43,8 +43,8 @@ final RecipeCatagory catagory = arrayList.get(position);
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(context, "", Toast.LENGTH_SHORT).show();
-                Toast.makeText(context, "" +holder.button.getText(), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(context, "", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(context, "" +holder.button.getText(), Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(context, Recipe.class);
 
